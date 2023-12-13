@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*general_medicine.php   spc_appointment.php*/
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/img3.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+
+}
+
+.nav-links{
+    background: #b0c4de;
+    text-align: right;
+}
+.nav-links ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.nav-links ul li{
+    width:120px;
+    margin:10px;
+    padding: 5px 12px;
+    text-align: center;
+    float: right;
+
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    
+
+}
+.nav-links  li a:hover,li a:focus{
+    color:rgb(65,105,225);
+    
+    
+}
+
+/*general_medicine.php*/
+.topic{
+    padding-left: 30%;
+    text-align: center;
+}
+.topic h1{
+    margin-top: 15px;
+    padding:  0 8px 10px;
+    color:white;
+    width: 10cm;
+    
+}
+.doctors{
+margin-top: 50px;
+margin-left:20mm;
+  padding:30px;
+  justify-content: space-between;
+  display: inline-flex;
+  column-gap: 50px;
+}
+
+.doc-menu img{
+    text-align: center;
+}
+.doc-menu{
+    background: #fff;
+    width:66mm;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+.doc-name{
+  font-size:3.3ch;
+  text-align: center;
+}
+
+.btn-one .drop{
+  font-size: 25px;
+  border: none;
+  float: left;
+
+}
+
+
+/* Dropdown content (hidden by default) */
+.info-box {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  height:200px;
+  /* background-color: #f9f9f9;
+border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;*/
+}
+
+/* Links inside the dropdown */
+.info-box  p{
+  font-size: 20px;
+  color: white;
+  padding: 12px 16px;
+  
+  display: block;
+  text-align: left;
+}
+ .info-box .custom-select{
+  font-family: Arial;
+  margin-left: 30px;
+ }
+ .info-box select{
+  text-align: center;
+   font-size: 18px;
+   height:30px;
+   width:200px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+   
+ }
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.btn-one:hover .info-box {
+  display: block;
+}
+.submit{
+  font-size:20px;
+  height:40px;
+  width:150px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+ 
+  /*spc_appointment.php*/
+  .doc-list{
+    margin-top: 20px;
+  }
+  
+  #list {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #list td, #list th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #list {background-color: #f2f2f2;}
+  
+  #list tr:hover {background-color: #ddd;}
+  
+  #list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #apt-list{
+    color: white;
+  }
+  #spc-table{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  #spc-table td, #list th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /*appointment.php*/
+  .header .welcome{
+    color:white;
+    
+  }
+  .app-info{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+    width:100mm;
+  }
+.welcome{
+  float: left;
+}
+/*profile.php*/
+.profilecontainer{
+  width:400px;
+  background:rgba(255,255,255,0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0px rgba(0,0,0,0.1);
+  margin-left: 700px;
+  
+  margin-top: 20px;
+  height: 520px;
+  padding-bottom: 35px;
+}
+.profilecontainer *{
+display:table;
+margin:0 auto;
+}
+
+.profilecontainer h1{
+ padding-top: 15px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    display:block;
+    padding-bottom:15px ;
+    font-family: arial;
+    font-weight: 600;
+    background-color: #ececec;
+
+}
+
+
+.profilecontainer input{
+ 
+  width: 8cm;
+    padding: 8px;
+    text-align: center;
+
+ }
+ .input-info{
+ 
+  width: 8cm;
+    padding: 8px;
+    text-align: center;
+background-color: white;
+ }
+ 
+ 
+.input-icons i{
+position: absolute;
+}
+.input-icons{
+  width:8cm;
+  margin-bottom: 10px;
+}
+.icon{
+  
+  padding:10px;
+  min-width: 15px;
+}
+.save-btn{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color:#fff;
+  cursor:pointer;
+  margin: 20px;
+  height:30px;
+  margin-left: 35mm;
+  text-align: center;
+  border:none;
+  background-size: 300% 100%;
+  width:132px;
+  transition: all 0.4s ease-in-out;
+  background-color: #3498db;;
+	border-radius: 0.3125rem; 
+	box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  
+}
+
+.auto{
+  margin-left:20mm;
+}

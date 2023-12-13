@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*homepage.html  login.php*/
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/R.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+
+}
+nav{
+    display:flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none ;
+    display:inline-block;
+    padding: 8px 12px;
+    position:relative;
+
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+    
+
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:#f44336;
+    display:block;
+    margin:auto;
+}
+.nav-links ul li:hover::after{
+     width:100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: left;
+}
+.text-box h1{
+    font-size:60px;
+}
+ .book-btn{
+     display:inline-block;
+     text-decoration:none;
+     color:#fff;
+     border:1px solid #fff;
+     padding:12px 34px;
+     font-size: 13px;
+     background: transparent;
+     position:relative;
+     cursor:pointer;
+ }
+ .book-btn:hover{
+     border:1px solid #f44336;
+     background:#f44336;
+     transition:1s;
+ }
+
+ .Loginformcontainer{
+     width:400px;
+     background:rgba(255,255,255,0.6);
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 3px 20px 0px rgba(0,0,0,0.1);
+     margin-left: 35px;
+     margin-right: auto;
+     margin-top: 20px;
+     height: 400px;
+     padding-bottom: 35px;
+ }
+ .Loginformcontainer *{
+display:table;
+margin:0 auto;
+ }
+ 
+ .Loginformcontainer h1{
+    padding-top: 15px;
+       color: black;
+       line-height: 1.2;
+       text-align: center;
+       display:block;
+       padding-bottom:15px ;
+       font-family: arial;
+       font-weight: 600;
+       background-color: #ececec;
+
+}
+
+
+ .Loginformcontainer input{
+     border-radius: 15px;
+     border-width: 1px;
+     padding:5px;
+    border-style: solid;
+    font-size: 16px;
+    width:8cm;
+    height:42px;
+    text-align: center;
+
+    }
+
+     .email{
+         padding-top: 20px;
+margin-bottom: 20px;
+    }
+    .password{
+        margin-bottom: 20px;
+    }
+    .specialization{
+        margin-bottom: 20px;
+    }
+
+    
+    .input[type="email"]:focus{
+        box-shadow: 0px 0px 31px -9px rgba(150, 150, 150, 1);
+        outline:none;
+    }
+    .input[type="password"]:focus{
+        box-shadow: 0px 0px 31px -9px rgba(150, 150, 150, 1);
+        outline:none;
+    }
+    button{
+        font-size: 16px;
+        font-weight: 600;
+        color:#fff;
+        cursor:pointer;
+        margin: 20px;
+        height:55px;
+        text-align: center;
+        border:none;
+        background-size: 300% 100%;
+        width:132px;
+        border-radius: 10px;
+        transition: all 0.4s ease-in-out;
+        background-image: linear-gradient(to right, 
+        #25aae1, #4481eb,#04befe, #3f86ed);
+        box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    }
+    button:focus{
+        outline:none;
+        border:none;
+    }
+    button:hover{
+        transition: all 0.4s ease-in-out;
+        background-position:100% 0 ;
+    }
+    .Signup{
+        padding-top: 60px;
+    }
+   .email i{
+       position: absolute
+   }
+   .password i{
+    position: absolute
+}
+   .icon{
+    border-right: 1px solid #cccccc;
+    padding-top: 20px;
+    padding-left: 15px;
+    min-width: 20px;
+    height: 30px;
+}
+    
